@@ -12,3 +12,11 @@ tr,td{
     width: 10px;
     height: 10px;
 }
+#startGame{
+    margin: 10px;
+    text-align: center;
+}
+#showNextGen{
+    margin: 10px;
+    text-align: center;
+}
