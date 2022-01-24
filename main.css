@@ -13,10 +13,23 @@ tr,td{
     height: 10px;
 }
 #startGame{
-    margin: 10px;
-    text-align: center;
+    border: 1px solid dodgerblue;
+    margin: auto;
+    border-radius: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    background-color: dodgerblue;
+    color: white;
+    cursor: pointer;
 }
+
 #showNextGen{
-    margin: 10px;
-    text-align: center;
+    border: 1px solid dodgerblue;
+    margin: auto;
+    border-radius: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    background-color: dodgerblue;
+    color: white;
+    cursor: pointer;
 }
