@@ -5,12 +5,12 @@
         <meta name="viewport", content="width=device-width,initial-scale=1.0">
         <title>Game of Life</title>
         <link rel="stylesheet" type="text/css" href="css/main.css">
-        <script type="text/javascript" src="js/GAME_OF_LIFE.js"></script>
+        <script type="text/javascript" src="js/game-logic.js"></script>
     </head>
 
     <body>
         <div id="main">
-            <h1>GAME OF LIFE</h1>
+            <marquee direction="left"><h1>GAME OF LIFE</h1></marquee>
             <table id="outputGameBoard">
                 <tr>
                     <td></td>
@@ -134,7 +134,14 @@
                 </tr>
             </table>
             <button id="startGame" onclick="allotRandomLivingState()">Start Game</button>
-            <button id="showNextGen" onclick="createNextGen()">Show Next Generation</button>
+            <button id="restartGame" onclick="restartGame()">Restart Game</button>
+            <button id="showNextGen" onclick="createNextGen()" disabled>Show Next Generation</button>
+            <table style="width: 40px;height: 20px;">
+                <tr>
+                    <td style="background-color: black; color: white;">Alive</td>
+                    <td style="background-color: white; color: black;">Dead</td>
+                </tr>
+            </table>
         </div>
     </body>
 </html>
